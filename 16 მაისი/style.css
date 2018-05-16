@@ -17,4 +17,11 @@
         font-size: 2em;
         color: #fff;
         text-align: center;
+        line-height: 200px;
+        padding: 10px 1px 40px;
+        margin-left: 100px;
+        /* border: 555px solid gray; */
+        outline: 555px solid green;
+
     }
+    
