@@ -30,7 +30,7 @@
 
     p.box--border__style{
 
-        border: 4px double #333;
+        border: 4px ridge #333;
         padding: 13px;
         width:80%;
         margin-left: auto;
