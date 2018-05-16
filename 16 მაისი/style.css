@@ -10,7 +10,7 @@
     background-image: url(images/images/bricks.png); 
 } */
 
-.box{
+/* .box{
         height: 200px;
         width: 200px;
         background-color:blue;
@@ -20,10 +20,19 @@
         line-height: 200px;
         padding: 10px 1px 40px;
         margin-left: 100px;
-        /* border: 555px solid gray; */
+         border: 555px solid gray; 
         outline: 555px solid green;
-        /* display: none; */
+        display: none; 
         visibility: hidden;
-        
-    }
+
+    } */
     
+
+    p.box--border__style{
+
+        border: 4px double #333;
+        padding: 13px;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
