@@ -13,7 +13,7 @@
 *{
     box-sizing: border-box;
 } */
-.box{
+/* .box{
         height: 200px;
         width: 200px;
         background-color:blue;
@@ -26,8 +26,8 @@
         border: 55px solid gray; 
         outline: 55px solid green;
         display: block; 
-        /* visibility: hidden; */
-        /* box-sizing: content-box; */
+         visibility: hidden; 
+         box-sizing: content-box; 
         width:80%;
         margin-left: auto;
         margin-right: auto;
@@ -46,6 +46,27 @@
         width:80%;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     /* solid, dotted, dashed, double, groove, ridge, inset, outset, */
+
+    #border-box,
+    #padding-box,
+    #content-box{
+        background-color: yellowgreen;
+        width: 225px;
+        padding : 1em 0;
+        border: 5px solid red;
+    }
+
+    .nomargin {
+        margin:0;
+    }
+
+    #border-box{
+        background-clip: padding-box;
+    }
+
+    #content-box{
+        
+    }
