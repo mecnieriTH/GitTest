@@ -1,6 +1,20 @@
-body{
-    background-color: #ff0000a4;
+/* body{
+  background-color: #ff0000a4;
     background-color: rgba(255,0,0, .5);
     background-image: url(images/images/bricks.png);
     background-repeat: no-repeat; 
-}
+    background-position:  ;
+    background-attachment: fixed; 
+  background: rgba(255,0,0, .5) url(images/images/bricks.png) no-repeat right 100px fixed; 
+  background-size: cover;
+    background-image: url(images/images/bricks.png); 
+} */
+
+.box{
+        height: 200px;
+        width: 200px;
+        background-color:blue;
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+    }
