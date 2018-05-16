@@ -9,8 +9,11 @@
   background-size: cover;
     background-image: url(images/images/bricks.png); 
 } */
-
-/* .box{
+/* 
+*{
+    box-sizing: border-box;
+} */
+.box{
         height: 200px;
         width: 200px;
         background-color:blue;
@@ -20,19 +23,29 @@
         line-height: 200px;
         padding: 10px 1px 40px;
         margin-left: 100px;
-         border: 555px solid gray; 
-        outline: 555px solid green;
-        display: none; 
-        visibility: hidden;
+        border: 55px solid gray; 
+        outline: 55px solid green;
+        display: block; 
+        /* visibility: hidden; */
+        /* box-sizing: content-box; */
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
 
-    } */
+
+    }
     
 
     p.box--border__style{
 
-        border: 4px ridge #333;
+        border-style: dashed double dotted ridge;
+        border-width: 5px 40px 15px 60px;
+        border-radius: 3221px;
+        border-color: green darkblue saddlebrown darkcyan;
         padding: 13px;
         width:80%;
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* solid, dotted, dashed, double, groove, ridge, inset, outset, */
